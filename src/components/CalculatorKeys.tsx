@@ -35,7 +35,7 @@ export const CalculatorKeys: React.FC<CalculatorKeysProps> =  ({ addNumber, addO
       <Button variant="contained" color={"secondary"}  onClick={() => addOperator(Operation.SUBTRACT)}>-</Button>
       <Button variant="contained" onClick={() => addNumber(0)}>0</Button>
       <Button variant="contained" onClick={addDecimal}>.</Button>
-      <Button variant="contained" onClick={calculate}>=</Button>
+      <Button variant="contained" color={"success"} onClick={calculate}>=</Button>
       <Button variant="contained" color={"secondary"}  onClick={() => addOperator(Operation.ADD)}>+</Button>
     </Container>
   )

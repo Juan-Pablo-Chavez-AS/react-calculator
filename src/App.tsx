@@ -66,7 +66,7 @@ const App = () => {
   }
 
   return (
-    <Stack borderColor={"red"} border={2} width={"30vw"} p={2} spacing={1} bgcolor={"#000"}>
+    <Stack borderColor={"red"} border={2} width={"30vw"} p={2} spacing={1} bgcolor={"#000"} borderRadius={5}>
       <CalculatorDisplay display={display}/>
       <CalculatorKeys
         addNumber={addNumber}
